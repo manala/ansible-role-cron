@@ -1,0 +1,18 @@
+---
+
+# Install
+- import_tasks: install.yml
+  tags:
+    - manala_cron
+
+# Files
+- import_tasks: files.yml
+  tags:
+    - manala_cron
+
+# Services
+- import_tasks: services.yml
+  tags:
+    - manala_cron
+    - manala_cron.services
+    - manala.services
