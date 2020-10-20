@@ -1,5 +1,9 @@
 ---
 
+package:
+  cron:
+    installed: true
+
 service:
   cron:
     enabled: true
